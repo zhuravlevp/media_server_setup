@@ -25,6 +25,10 @@ EndSection
 
 # Disable power management
 # https://wiki.archlinux.org/title/Display_Power_Management_Signaling
+Section "Extensions"
+    Option      "DPMS" "Disable"
+EndSection
+
 Section "ServerFlags"
     Option "StandbyTime" "0"
     Option "SuspendTime" "0"
